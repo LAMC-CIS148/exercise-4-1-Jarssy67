@@ -10,8 +10,21 @@ body {
 }
 
 /* the styles for the header */
+header h2 {
+	font-size: 175%;
+	color: var(--global-color-1);
+	text-indent: 30px;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
+}
 header img {
 	float: left;
+}
+.shadow { 
+	text-shadow: 2px 2px 2px var(--global-color-1);
 }
 
 /* the styles for the main content */
@@ -20,15 +33,16 @@ main {
 }
 main h1 {
 	font-size: 150%;
+	padding: .3em 0;
 }
-header h2 {
-	font-size: 175%
+main h2 {
 	color: var(--global-color-1)
-}
-header h3 {
 	font-size: 130%;
-	font-style: italic;
-	text-indnet: 30px
+	padding: .5em 0 .25em 0;
+}
+main h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
 }
 
 
