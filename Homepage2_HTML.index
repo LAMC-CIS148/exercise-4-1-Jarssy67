@@ -5,11 +5,9 @@
   <head> 
             <meta charset="utf-8">
             <title> San Joaquin Valley Town</title>
-	          <link rel="stylesheet" href="town_hall_1/styles/c4_main.css">
-	          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <link rel="shortcut icon" href="images/favicon.ico">   
-		  h4{ 
-              text-shadow: 3px 3px #800000;}
+	    <link rel="stylesheet" href="styles/c4_main.css">
+		
   </head> 
 
    <body> 
@@ -17,7 +15,7 @@
                  
                     <img src= "images/town_hall_logo.gif" alt="Town Hall Logo" height="80">
                       <h2> San Joaquin Valley Town Hall</h2>
-                      <h4> Celebrating our <em>75</em><sup>th</sup> Year</h4>
+                      <h3> Celebrating our <span class="shadow">75<sup>th</sup></span> Year</h3>
             </header>
         <main> 
 
